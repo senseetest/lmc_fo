@@ -17,7 +17,9 @@
       </controllersDirectory>
       <formsDirectory enabled="false"/>
       <layoutsDirectory enabled="false"/>
-      <modelsDirectory/>
+      <modelsDirectory>
+        <modelFile modelName="Product"/>
+      </modelsDirectory>
       <modulesDirectory>
         <moduleDirectory moduleName="products">
           <configsDirectory enabled="false"/>
