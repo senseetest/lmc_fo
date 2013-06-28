@@ -11,6 +11,9 @@ class IndexController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+        $ip = $_SERVER['REMOTE_ADDR];
+        $dbLog = new Model_Log();
+        $dbLog->logVisitor($ip);
     }
 
 
